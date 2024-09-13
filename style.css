@@ -1,0 +1,82 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: rgb(237, 237, 233);
+ margin: 0%;
+ padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(92, 89, 97);
+    width: 80%;
+    margin: 0% auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px regba (0. 0. 0. 0.1);
+}
+ /* left section styling */
+ 
+ .left-section {
+    background-color: rgba(148, 52, 238, 0.78);
+    color: rgb(161, 219, 103);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(115, 214, 130);
+ }
+
+
+ .profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgba(117, 7, 227, 0.849);
+    margin-bottom: 20px;
+ }
+
+ h1 {
+    font-size:  24px;
+    margin: 10PX;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ h3 {
+    font-size:  18px;
+    padding: 2%;
+    margin: 20px  0 10PX;
+    color: rgba(13, 9, 15, 0.856);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(27, 24, 199);
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+
+ ul {
+    margin: 5px 0;
+ }
+
+ /* right section styling */
+
+ .right-section {
+   
+    padding: 20px;
+    width:65% ;
+ }
+  .h1 {
+text-decoration: solid;
+text-transform: lowercase;
+text-shadow: 0cqmin;
+  }
+ button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor:  pointer;
+    margin-top: 10px;
+    font-size:  18px;
+ }
+
+
+ button :hover {
+    background-color: rgba(81, 56, 163, 0.58);
+ }
